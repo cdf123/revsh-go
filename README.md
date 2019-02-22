@@ -33,7 +33,7 @@ One can use various tools to handle incomming connections, such as:
 Here is an example with `ncat`:
 
 ```bash
-$ ncat --ssl --ssl-cert server.pem --ssl-key server.key -lvp 1234
+$ ncat --ssl --ssl-cert server.pem --ssl-key server.key -lvp 8080
 Ncat: Version 7.70 ( https://nmap.org/ncat )
 Ncat: Listening on :::8080
 Ncat: Listening on 0.0.0.0:8080
